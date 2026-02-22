@@ -1,0 +1,8 @@
+{
+  "name": "nexbus-core",
+  "version": "0.1.0",
+  "description": "Portable C++17 Nexbus v0.1 protocol core library",
+  "keywords": ["nexbus", "protocol", "embedded"],
+  "frameworks": "*",
+  "platforms": "*"
+}
