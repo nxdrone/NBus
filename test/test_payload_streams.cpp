@@ -29,9 +29,3 @@ void test_parse_streams_payload() {
   TEST_ASSERT_EQUAL_UINT32(nexbus::schema::POWER_TELEM_V1, streams.streams[1].schema_id);
   TEST_ASSERT_EQUAL_UINT16(0, streams.streams[1].sample_len);
 }
-
-int main() {
-  UNITY_BEGIN();
-  RUN_TEST(test_parse_streams_payload);
-  return UNITY_END();
-}

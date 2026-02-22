@@ -37,9 +37,3 @@ void test_parser_resync_after_garbage() {
   TEST_ASSERT_EQUAL_UINT8(tx.msg, rx.msg);
   TEST_ASSERT_EQUAL_UINT8_ARRAY(payload.data(), rx.payload.data, payload.size());
 }
-
-int main() {
-  UNITY_BEGIN();
-  RUN_TEST(test_parser_resync_after_garbage);
-  return UNITY_END();
-}

@@ -8,9 +8,3 @@ void test_crc_known_vector() {
       reinterpret_cast<const uint8_t*>(text), 9);
   TEST_ASSERT_EQUAL_HEX16(0x29B1, crc);
 }
-
-int main() {
-  UNITY_BEGIN();
-  RUN_TEST(test_crc_known_vector);
-  return UNITY_END();
-}

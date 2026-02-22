@@ -39,9 +39,3 @@ void test_frame_encode_parse_roundtrip() {
   TEST_ASSERT_EQUAL_UINT32(payload.size(), rx.payload.size);
   TEST_ASSERT_EQUAL_UINT8_ARRAY(payload.data(), rx.payload.data, payload.size());
 }
-
-int main() {
-  UNITY_BEGIN();
-  RUN_TEST(test_frame_encode_parse_roundtrip);
-  return UNITY_END();
-}

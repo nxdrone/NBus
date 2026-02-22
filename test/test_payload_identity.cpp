@@ -26,9 +26,3 @@ void test_parse_identity_payload() {
   TEST_ASSERT_EQUAL_UINT8(9, id.fw_minor);
   TEST_ASSERT_EQUAL_HEX32(0x12345678, id.caps_flags);
 }
-
-int main() {
-  UNITY_BEGIN();
-  RUN_TEST(test_parse_identity_payload);
-  return UNITY_END();
-}
