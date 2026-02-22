@@ -6,7 +6,7 @@
 #include "nexbus/nexbus_schemas.h"
 
 void test_parse_streams_payload() {
-  const std::array<uint8_t, 31> raw{{
+  const std::array<uint8_t, 35> raw{{
       2,
       1, 5, 'd', 'r', 'i', 'v', 'e', 100, 0,
       0x01, 0x10, 0x00, 0x00,

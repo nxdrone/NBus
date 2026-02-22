@@ -5,7 +5,7 @@
 #include "nexbus/nexbus_payloads.h"
 
 void test_parse_identity_payload() {
-  const std::array<uint8_t, 26> raw{{
+  const std::array<uint8_t, 24> raw{{
       3, 'A', 'C', 'M',
       4, 'D', 'r', 'i', 'v',
       2, 'M', '1',
